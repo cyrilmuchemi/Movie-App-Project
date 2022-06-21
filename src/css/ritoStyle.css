@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=David+Libre&family=Lato:wght@300&family=Permanent+Marker&family=Raleway:wght@200&family=Roboto:wght@100&display=swap');
+
+* {
+    font-family: 'David Libre', serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    padding: 15px 12px;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 1px 3px 3px 3px #ccc;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 25px;
+    margin: 0 15px;
+}
+
+.logo-holder {
+    flex: 1 1 25%;
+}
+
+.logo-holder > img {
+    width: 50px;
+}
+
+.nav-links {
+    flex: 1 1 5%;
+    display: flex;
+    justify-content: space-between;
+}
