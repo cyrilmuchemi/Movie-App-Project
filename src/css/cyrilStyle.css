@@ -6,13 +6,82 @@
  padding: 0;
 }
 
+/**
+
+*? Styling the home page
+**/
+
+#movie-list {
+  display: grid;
+  grid-template-columns: repeat(3, 250px);
+  gap: 60px;
+  justify-content: center;
+  margin-top: 35px;
+  margin-bottom: 30px;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+h2 {
+  margin: 9px auto;
+  font-size: 18px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.open-comments {
+  padding: 10px;
+  background: #fff;
+  border: 1px solid blue;
+  border-radius: 4px;
+  color: blue;
+  transition: color 1s, background 1s;
+}
+
+.open-comments:hover {
+  color: #fff;
+  background: blue;
+}
+
+.Reservation {
+  padding: 10px;
+  background: #fff;
+  border: 1px solid blue;
+  border-radius: 4px;
+  color: blue;
+  transition: color 1s, background 1s;
+}
+
+.Reservation:hover {
+  color: #fff;
+  background: blue;
+}
+
 .footer {
   display: flex;
-  position: fixed;
   bottom: 5px;
   height: 40px;
   width: 100%;
   justify-content: center;
   align-items: center;
   border: 2px black solid;
+}
+
+.movie-items {
+  border: 2px rgb(231, 223, 223) solid;
+  padding: 15px;
+  text-align: center;
+  border-radius: 2px;
+}
+
+.movie-items:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 10);
 }
