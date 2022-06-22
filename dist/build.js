@@ -16,7 +16,7 @@
   \**********************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"/* stylelint-disable indentation */\\r\\n/* stylelint-disable no-missing-end-of-source-newline */\\r\\n\\r\\n* {\\r\\n margin: 0;\\r\\n padding: 0;\\r\\n}\\r\\n\\r\\n/**\\r\\n\\r\\n*? Styling the home page\\r\\n**/\\r\\n\\r\\n#movie-list {\\r\\n  display: grid;\\r\\n  grid-template-columns: repeat(3, 250px);\\r\\n  gap: 60px;\\r\\n  justify-content: center;\\r\\n  margin-top: 35px;\\r\\n  margin-bottom: 30px;\\r\\n}\\r\\n\\r\\nfigure {\\r\\n  display: flex;\\r\\n  flex-direction: column;\\r\\n  padding: 10px;\\r\\n}\\r\\n\\r\\nh2 {\\r\\n  margin: 9px auto;\\r\\n  font-size: 18px;\\r\\n}\\r\\n\\r\\n.buttons {\\r\\n  display: flex;\\r\\n  flex-direction: column;\\r\\n  gap: 15px;\\r\\n}\\r\\n\\r\\n.open-comments {\\r\\n  padding: 10px;\\r\\n  background: #fff;\\r\\n  border: 1px solid blue;\\r\\n  border-radius: 4px;\\r\\n  color: blue;\\r\\n  transition: color 1s, background 1s;\\r\\n}\\r\\n\\r\\n.open-comments:hover {\\r\\n  color: #fff;\\r\\n  background: blue;\\r\\n}\\r\\n\\r\\n.Reservation {\\r\\n  padding: 10px;\\r\\n  background: #fff;\\r\\n  border: 1px solid blue;\\r\\n  border-radius: 4px;\\r\\n  color: blue;\\r\\n  transition: color 1s, background 1s;\\r\\n}\\r\\n\\r\\n.Reservation:hover {\\r\\n  color: #fff;\\r\\n  background: blue;\\r\\n}\\r\\n\\r\\n.footer {\\r\\n  display: flex;\\r\\n  bottom: 5px;\\r\\n  height: 40px;\\r\\n  width: 100%;\\r\\n  justify-content: center;\\r\\n  align-items: center;\\r\\n  border: 2px black solid;\\r\\n}\\r\\n\\r\\n.movie-items {\\r\\n  border: 2px rgb(231, 223, 223) solid;\\r\\n  padding: 15px;\\r\\n  text-align: center;\\r\\n  border-radius: 2px;\\r\\n}\\r\\n\\r\\n.movie-items:hover {\\r\\n  box-shadow: 0 5px 15px rgba(0, 0, 0, 10);\\r\\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://movie_app/./src/css/cyrilStyle.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"/* stylelint-disable indentation */\\r\\n/* stylelint-disable no-missing-end-of-source-newline */\\r\\n\\r\\n* {\\r\\n margin: 0;\\r\\n padding: 0;\\r\\n}\\r\\n\\r\\n/**\\r\\n\\r\\n*? Styling the home page\\r\\n**/\\r\\n\\r\\n#movie-list {\\r\\n  display: grid;\\r\\n  grid-template-columns: repeat(3, 250px);\\r\\n  gap: 60px;\\r\\n  justify-content: center;\\r\\n  margin-top: 150px;\\r\\n  margin-bottom: 30px;\\r\\n}\\r\\n\\r\\nfigure {\\r\\n  display: flex;\\r\\n  flex-direction: column;\\r\\n  padding: 10px;\\r\\n}\\r\\n\\r\\nh2 {\\r\\n  margin: 9px auto;\\r\\n  font-size: 18px;\\r\\n}\\r\\n\\r\\n.buttons {\\r\\n  display: flex;\\r\\n  flex-direction: column;\\r\\n  gap: 15px;\\r\\n}\\r\\n\\r\\n.open-comments {\\r\\n  padding: 10px;\\r\\n  background: #fff;\\r\\n  border: 1px solid blue;\\r\\n  border-radius: 4px;\\r\\n  color: blue;\\r\\n  transition: color 1s, background 1s;\\r\\n}\\r\\n\\r\\n.open-comments:hover {\\r\\n  color: #fff;\\r\\n  background: blue;\\r\\n}\\r\\n\\r\\n.Reservation {\\r\\n  padding: 10px;\\r\\n  background: #fff;\\r\\n  border: 1px solid blue;\\r\\n  border-radius: 4px;\\r\\n  color: blue;\\r\\n  transition: color 1s, background 1s;\\r\\n}\\r\\n\\r\\n.Reservation:hover {\\r\\n  color: #fff;\\r\\n  background: blue;\\r\\n}\\r\\n\\r\\n.footer {\\r\\n  display: flex;\\r\\n  bottom: 5px;\\r\\n  height: 40px;\\r\\n  width: 100%;\\r\\n  justify-content: center;\\r\\n  align-items: center;\\r\\n  border: 2px black solid;\\r\\n}\\r\\n\\r\\n.movie-items {\\r\\n  border: 2px rgb(231, 223, 223) solid;\\r\\n  padding: 15px;\\r\\n  text-align: center;\\r\\n  border-radius: 2px;\\r\\n}\\r\\n\\r\\n.movie-items:hover {\\r\\n  box-shadow: 0 5px 15px rgba(0, 0, 0, 10);\\r\\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://movie_app/./src/css/cyrilStyle.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -136,77 +136,67 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_ritoStyle_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./css/ritoStyle.css */ \"./src/css/ritoStyle.css\");\n/* harmony import */ var _css_cyrilStyle_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./css/cyrilStyle.css */ \"./src/css/cyrilStyle.css\");\n/* harmony import */ var _js_cyril_index_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./js/cyril/index.js */ \"./src/js/cyril/index.js\");\n/* harmony import */ var _js_rito_index_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./js/rito/index.js */ \"./src/js/rito/index.js\");\n\r\n\r\n\r\n\r\n\r\n\n\n//# sourceURL=webpack://movie_app/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_ritoStyle_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./css/ritoStyle.css */ \"./src/css/ritoStyle.css\");\n/* harmony import */ var _css_cyrilStyle_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./css/cyrilStyle.css */ \"./src/css/cyrilStyle.css\");\n/* harmony import */ var _js_movie_list_index_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./js/movie-list/index.js */ \"./src/js/movie-list/index.js\");\n\r\n\r\n\r\n\r\n\n\n//# sourceURL=webpack://movie_app/./src/index.js?");
 
 /***/ }),
 
-/***/ "./src/js/cyril/api.js":
-/*!*****************************!*\
-  !*** ./src/js/cyril/api.js ***!
-  \*****************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (class {\r\n  constructor() {\r\n    this.url = 'https://api.tvmaze.com/shows';\r\n  }\r\n\r\n  async getMovies() {\r\n    console.log(this.url);\r\n    const response = await fetch(this.url);\r\n    return await response.json();\r\n  }\r\n});\n\n//# sourceURL=webpack://movie_app/./src/js/cyril/api.js?");
-
-/***/ }),
-
-/***/ "./src/js/cyril/index.js":
-/*!*******************************!*\
-  !*** ./src/js/cyril/index.js ***!
-  \*******************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./api.js */ \"./src/js/cyril/api.js\");\n\r\n\r\nconst api = new _api_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"]();\r\n\r\napi.getMovies().then(\r\n    (value) => {\r\n        \r\n        let movieHome = document.getElementById('movie-list');\r\n        movieHome.innerHTML = value.map(({id, name, image}) => {\r\n            return `\r\n        <div class= \"movie movie-items\">\r\n        <figure class= \"Images\">\r\n        <img src=${image.medium} alt= \"A movie\">\r\n        </figure>\r\n        <h2>${name}</h2>\r\n        <div class= \"buttons\">\r\n        <button data-movie-id=\"${id}\" class=\"open-comments\">Comments</button>\r\n        <button class=\"Reservation\">Reservation</button>\r\n        </div>\r\n        </div>\r\n        `    \r\n        }).join(\"\");\r\n    }\r\n).catch(err => console.log(err));\r\n\n\n//# sourceURL=webpack://movie_app/./src/js/cyril/index.js?");
-
-/***/ }),
-
-/***/ "./src/js/rito/index.js":
-/*!******************************!*\
-  !*** ./src/js/rito/index.js ***!
-  \******************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_initEventListener_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/initEventListener.js */ \"./src/js/rito/modules/initEventListener.js\");\n\r\n\r\nconst moviesList = document.getElementById('movies');\r\nconst movies = [\r\n  {\r\n    id: 56104,\r\n    name: 'Twisted Fiction',\r\n  },\r\n  {\r\n    id: 31783,\r\n    name: 'Science Fiction Theatre',\r\n  },\r\n  {\r\n    id: 5965,\r\n    name: 'Food: Fact or Fiction?',\r\n  },\r\n];\r\n\r\nmoviesList.innerHTML = movies.map(({ id, name }) => `<li class=\"movie-list-item\"><button data-movie-id=${id} class=\"open-comments\">${name}</button></li>`).join(' ');\r\n\r\n(0,_modules_initEventListener_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n\n//# sourceURL=webpack://movie_app/./src/js/rito/index.js?");
-
-/***/ }),
-
-/***/ "./src/js/rito/modules/api.js":
-/*!************************************!*\
-  !*** ./src/js/rito/modules/api.js ***!
-  \************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _config_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./config.js */ \"./src/js/rito/modules/config.js\");\n\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (class {\r\n  constructor(type = 'comments') {\r\n    this.url = type === 'comments' ? _config_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"].COMMENT_API_URL : _config_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"].INVOLVEMENT_API_URL;\r\n  }\r\n\r\n  async getDetails(id) {\r\n    const data = await fetch(`${this.url}/${id}`);\r\n    return data.json();\r\n  }\r\n});\n\n//# sourceURL=webpack://movie_app/./src/js/rito/modules/api.js?");
-
-/***/ }),
-
-/***/ "./src/js/rito/modules/config.js":
-/*!***************************************!*\
-  !*** ./src/js/rito/modules/config.js ***!
-  \***************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (class {\r\n    static COMMENT_API_URL = 'https://api.tvmaze.com/shows';\r\n\r\n    static INVOLVEMENT_API_URL = '';\r\n});\n\n//# sourceURL=webpack://movie_app/./src/js/rito/modules/config.js?");
-
-/***/ }),
-
-/***/ "./src/js/rito/modules/createPopUpUi.js":
+/***/ "./src/js/comment-pop-up/modules/api.js":
 /*!**********************************************!*\
-  !*** ./src/js/rito/modules/createPopUpUi.js ***!
+  !*** ./src/js/comment-pop-up/modules/api.js ***!
   \**********************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst IMAGE = document.getElementById('show-img');\r\nconst TITLE = document.getElementById('show-title');\r\nconst SHOW_DETAILS = document.getElementById('show-details');\r\n\r\nfunction DataFactory(data) {\r\n  this.image = data.image.original;\r\n\r\n  this.title = data.name;\r\n\r\n  this.getDate = (input) => {\r\n    const date = new Date(input);\r\n    return `${date.getDate()}/${date.getMonth() + 1}/${date.getFullYear()}`;\r\n  };\r\n\r\n  this.list = [\r\n    {\r\n      name: 'Status',\r\n      value: data.status,\r\n    },\r\n    {\r\n      name: 'Language',\r\n      value: data.language,\r\n    },\r\n    {\r\n      name: 'Type',\r\n      value: data.type,\r\n    },\r\n    {\r\n      name: 'Premiered',\r\n      value: this.getDate(data.premiered),\r\n    },\r\n  ];\r\n}\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((input) => {\r\n  const data = new DataFactory(input);\r\n  IMAGE.src = data.image;\r\n  IMAGE.alt = data.title;\r\n  TITLE.innerText = data.title;\r\n  SHOW_DETAILS.innerHTML = data.list.map(({ name, value }) => `<li class=\"show-detail-list-items\">\r\n        <h3>${name}:</h3>\r\n        <h3>${value}</h3>\r\n    </li>`).join(' ');\r\n});\n\n//# sourceURL=webpack://movie_app/./src/js/rito/modules/createPopUpUi.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _config_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./config.js */ \"./src/js/comment-pop-up/modules/config.js\");\n\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (class {\r\n  constructor(type = 'comments') {\r\n    this.url = type === 'comments' ? _config_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"].COMMENT_API_URL : _config_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"].INVOLVEMENT_API_URL;\r\n  }\r\n\r\n  async getDetails(id) {\r\n    const data = await fetch(`${this.url}/${id}`);\r\n    return data.json();\r\n  }\r\n});\n\n//# sourceURL=webpack://movie_app/./src/js/comment-pop-up/modules/api.js?");
 
 /***/ }),
 
-/***/ "./src/js/rito/modules/initEventListener.js":
-/*!**************************************************!*\
-  !*** ./src/js/rito/modules/initEventListener.js ***!
-  \**************************************************/
+/***/ "./src/js/comment-pop-up/modules/config.js":
+/*!*************************************************!*\
+  !*** ./src/js/comment-pop-up/modules/config.js ***!
+  \*************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./api.js */ \"./src/js/rito/modules/api.js\");\n/* harmony import */ var _createPopUpUi_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./createPopUpUi.js */ \"./src/js/rito/modules/createPopUpUi.js\");\n\r\n\r\n\r\nconst openPopUpToggle = () => {\r\n  const popUp = document.querySelector('#comments');\r\n  popUp.classList.toggle('display-none');\r\n};\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (() => {\r\n  const commentButtons = document.querySelectorAll('.open-comments');\r\n\r\n  const closePopUpButton = document.querySelector('.close-pop-up');\r\n\r\n  closePopUpButton.addEventListener('click', () => {\r\n    openPopUpToggle();\r\n  });\r\n\r\n  commentButtons.forEach((item) => {\r\n    item.addEventListener('click', (ev) => {\r\n      const api = new _api_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"]();\r\n      const { movieId } = ev.target.dataset;\r\n      api.getDetails(movieId)\r\n        .then((data) => {\r\n          (0,_createPopUpUi_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])(data);\r\n          openPopUpToggle();\r\n        })\r\n        .catch((err) => err);\r\n    });\r\n  });\r\n});\n\n//# sourceURL=webpack://movie_app/./src/js/rito/modules/initEventListener.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (class {\r\n    static COMMENT_API_URL = 'https://api.tvmaze.com/shows';\r\n\r\n    static INVOLVEMENT_API_URL = '';\r\n});\n\n//# sourceURL=webpack://movie_app/./src/js/comment-pop-up/modules/config.js?");
+
+/***/ }),
+
+/***/ "./src/js/comment-pop-up/modules/createPopUpUi.js":
+/*!********************************************************!*\
+  !*** ./src/js/comment-pop-up/modules/createPopUpUi.js ***!
+  \********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst IMAGE = document.getElementById('show-img');\r\nconst TITLE = document.getElementById('show-title');\r\nconst SHOW_DETAILS = document.getElementById('show-details');\r\n\r\nfunction DataFactory(data) {\r\n  this.image = data.image.original;\r\n\r\n  this.title = data.name;\r\n\r\n  this.getDate = (input) => {\r\n    const date = new Date(input);\r\n    return `${date.getDate()}/${date.getMonth() + 1}/${date.getFullYear()}`;\r\n  };\r\n\r\n  this.list = [\r\n    {\r\n      name: 'Status',\r\n      value: data.status,\r\n    },\r\n    {\r\n      name: 'Language',\r\n      value: data.language,\r\n    },\r\n    {\r\n      name: 'Type',\r\n      value: data.type,\r\n    },\r\n    {\r\n      name: 'Premiered',\r\n      value: this.getDate(data.premiered),\r\n    },\r\n  ];\r\n}\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((input) => {\r\n  const data = new DataFactory(input);\r\n  IMAGE.src = data.image;\r\n  IMAGE.alt = data.title;\r\n  TITLE.innerText = data.title;\r\n  SHOW_DETAILS.innerHTML = data.list.map(({ name, value }) => `<li class=\"show-detail-list-items\">\r\n        <h3>${name}:</h3>\r\n        <h3>${value}</h3>\r\n    </li>`).join(' ');\r\n});\n\n//# sourceURL=webpack://movie_app/./src/js/comment-pop-up/modules/createPopUpUi.js?");
+
+/***/ }),
+
+/***/ "./src/js/comment-pop-up/modules/initEventListener.js":
+/*!************************************************************!*\
+  !*** ./src/js/comment-pop-up/modules/initEventListener.js ***!
+  \************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./api.js */ \"./src/js/comment-pop-up/modules/api.js\");\n/* harmony import */ var _createPopUpUi_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./createPopUpUi.js */ \"./src/js/comment-pop-up/modules/createPopUpUi.js\");\n\r\n\r\n\r\nconst openPopUpToggle = () => {\r\n  const popUp = document.querySelector('#comments');\r\n  popUp.classList.toggle('display-none');\r\n};\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (() => {\r\n  const commentButtons = document.querySelectorAll('.open-comments');\r\n\r\n  const closePopUpButton = document.querySelector('.close-pop-up');\r\n\r\n  closePopUpButton.addEventListener('click', () => {\r\n    openPopUpToggle();\r\n  });\r\n\r\n  commentButtons.forEach((item) => {\r\n    item.addEventListener('click', (ev) => {\r\n      const api = new _api_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"]();\r\n      const { movieId } = ev.target.dataset;\r\n      api.getDetails(movieId)\r\n        .then((data) => {\r\n          (0,_createPopUpUi_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])(data);\r\n          openPopUpToggle();\r\n        })\r\n        .catch((err) => err);\r\n    });\r\n  });\r\n});\n\n//# sourceURL=webpack://movie_app/./src/js/comment-pop-up/modules/initEventListener.js?");
+
+/***/ }),
+
+/***/ "./src/js/movie-list/api.js":
+/*!**********************************!*\
+  !*** ./src/js/movie-list/api.js ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (class {\r\n  constructor() {\r\n    this.url = 'https://api.tvmaze.com/shows';\r\n  }\r\n\r\n  async getMovies() {\r\n    console.log(this.url);\r\n    const response = await fetch(this.url);\r\n    return await response.json();\r\n  }\r\n});\n\n//# sourceURL=webpack://movie_app/./src/js/movie-list/api.js?");
+
+/***/ }),
+
+/***/ "./src/js/movie-list/index.js":
+/*!************************************!*\
+  !*** ./src/js/movie-list/index.js ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./api.js */ \"./src/js/movie-list/api.js\");\n/* harmony import */ var _comment_pop_up_modules_initEventListener_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../comment-pop-up/modules/initEventListener.js */ \"./src/js/comment-pop-up/modules/initEventListener.js\");\n\r\n\r\n\r\n\r\nconst api = new _api_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"]();\r\n\r\napi.getMovies().then(\r\n    (value) => {\r\n        \r\n        let movieHome = document.getElementById('movie-list');\r\n        movieHome.innerHTML = value.map(({id, name, image}) => {\r\n            return `\r\n        <div class= \"movie movie-items\">\r\n        <figure class= \"Images\">\r\n        <img src=${image.medium} alt= \"A movie\">\r\n        </figure>\r\n        <h2>${name}</h2>\r\n        <div class= \"buttons\">\r\n        <button data-movie-id=\"${id}\" class=\"open-comments\">Comments</button>\r\n        <button class=\"Reservation\">Reservation</button>\r\n        </div>\r\n        </div>\r\n        `    \r\n        }).join(\"\");\r\n        (0,_comment_pop_up_modules_initEventListener_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\r\n    }\r\n).catch(err => console.log(err));\r\n\n\n//# sourceURL=webpack://movie_app/./src/js/movie-list/index.js?");
 
 /***/ })
 
