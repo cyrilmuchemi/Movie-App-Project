@@ -1,8 +1,10 @@
+import API from './api.js';
+import CreatePopUpUI from './createPopUpUi.js';
 
 const openPopUpToggle = () => {
-  const popUp = document.querySelector("#comments");
+  const popUp = document.querySelector('#comments');
   popUp.classList.toggle('display-none');
-}
+};
 
 export default () => {
   const commentButtons = document.querySelectorAll('.open-comments');
@@ -11,14 +13,18 @@ export default () => {
 
   closePopUpButton.addEventListener('click', () => {
     openPopUpToggle();
-  })
+  });
 
   commentButtons.forEach((item) => {
     item.addEventListener('click', (ev) => {
+      const api = new API();
       const { movieId } = ev.target.dataset;
-      openPopUpToggle();
-      console.log(ev.target.dataset);
-      console.log(movieId);
+      api.getDetails(movieId)
+        .then((data) => {
+          CreatePopUpUI(data);
+          openPopUpToggle();
+        })
+        .catch((err) => err);
     });
   });
 };
