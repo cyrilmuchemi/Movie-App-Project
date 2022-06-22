@@ -135,7 +135,8 @@ nav {
   border-radius: 32px;
 }
 
-.show-detail {
+.show-detail,
+.all-comments {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -167,13 +168,45 @@ nav {
   flex: 1 1 40%;
   display: flex;
   justify-content: space-around;
-  transition: all 1s;
-}
-
-.show-detail-list-items:hover {
   background-color: blueviolet;
   border: 1px solid rgb(5, 5, 158);
   color: #fff;
   padding: 5px;
   border-radius: 4px;
+  transition: all 1s;
+}
+
+.show-detail-list-items:hover {
+  background-color: #fff;
+  border: 1px solid rgb(5, 5, 158);
+  color: rgb(5, 5, 158);
+}
+
+.all-comments {
+  margin: 15px auto;
+  padding: 18px;
+  width: 550px;
+  height: 250px;
+  color: rgb(5, 5, 158);
+  border: 1px solid rgb(5, 5, 158);
+  border-radius: 4px;
+  overflow-y: scroll;
+}
+
+.normal-title {
+  font-weight: 700;
+  margin: 6px auto;
+  color: blue;
+}
+
+#comment-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 85%;
+}
+
+#comment-count {
+  color: rgb(0, 0, 0);
+  margin: 0 9px;
 }
