@@ -1,5 +1,7 @@
 import fetchMovies from "./api.js";
 
+import InitEventListener from '../comment-pop-up/modules/initEventListener.js';
+
 const api = new fetchMovies();
 
 api.getMovies().then(
@@ -20,5 +22,6 @@ api.getMovies().then(
         </div>
         `    
         }).join("");
+        InitEventListener();
     }
 ).catch(err => console.log(err));
