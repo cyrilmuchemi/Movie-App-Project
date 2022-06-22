@@ -1,47 +1,85 @@
 @import url('https://fonts.googleapis.com/css2?family=David+Libre&family=Lato:wght@300&family=Permanent+Marker&family=Raleway:wght@200&family=Roboto:wght@100&display=swap');
 
 * {
-    font-family: 'David Libre', serif;
-    font-family: 'Lato', sans-serif;
-    font-family: 'Permanent Marker', cursive;
-    margin: 0;
-    padding: 0;
+  font-family: 'David Libre', serif;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Permanent Marker', cursive;
+  margin: 0;
+  padding: 0;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 header {
-    padding: 15px 12px;
-    border-bottom: 1px solid #ccc;
-    box-shadow: 1px 3px 3px 3px #ccc;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 15px 12px;
+  border-bottom: 1px solid #ccc;
+  box-shadow: 1px 3px 3px 3px #ccc;
+  background: #fff;
+  z-index: 999;
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 0px 25px;
-    margin: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0 25px;
+  margin: 0 15px;
 }
 
 .logo-holder {
-    flex: 1 1 25%;
+  flex: 1 1 25%;
 }
 
 .logo-holder > img {
-    width: 50px;
+  width: 50px;
 }
 
 .nav-links {
-    flex: 1 1 5%;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  flex: 1 1 5%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#event-btn {
+  min-height: 100vh;
+  margin-top: 129px;
+}
+
+#movies {
+  margin: 65px 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.movie-list-item {
+  flex: 1 0 25%;
+  margin: 9px 15px;
+  text-align: center;
+}
+
+.open-comments {
+  padding: 15px;
+  background: #fff;
+  border: 1px solid blue;
+  border-radius: 4px;
+  color: blue;
+  transition: color 1s, background 1s;
+}
+
+.open-comments:hover {
+  color: #fff;
+  background: blue;
 }
