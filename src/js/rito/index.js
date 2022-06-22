@@ -18,4 +18,5 @@ const movies = [
 
 moviesList.innerHTML = movies.map(({ id, name }) => `<li class="movie-list-item"><button data-movie-id=${id} class="open-comments">${name}</button></li>`).join(' ');
 
+
 InitEventListener();

@@ -24,7 +24,7 @@ header {
   border-bottom: 1px solid #ccc;
   box-shadow: 1px 3px 3px 3px #ccc;
   background: #fff;
-  z-index: 999;
+  z-index: 1;
 }
 
 nav {
@@ -82,4 +82,81 @@ nav {
 .open-comments:hover {
   color: #fff;
   background: blue;
+}
+
+.display-none {
+  display: none;
+}
+
+.pop-up-bg{ 
+  position: fixed;
+  z-index: 2;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.6);
+}
+
+.comment-pop-up {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background: #fff;
+  border: 1px solid #fff;
+  border-radius: 9px;
+  padding: 15px;
+  margin: 5% auto;
+  width: 65%;
+}
+
+.close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  cursor: pointer;
+}
+
+.show-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.show-image {
+  height: 350px;
+  width: 550px;
+}
+.show-image img {
+    border: 1px solid #fff;
+    border-radius: 9px;
+    width: 100%;
+    height: 100%; 
+    object-fit: fill;
+}
+
+.show-detail-list {
+  margin: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: rgb(49, 13, 82, 0.9);
+}
+
+.show-detail-list-items {
+  margin: 5px 12px;
+  flex: 1 1 40%;
+  display: flex;
+  justify-content: space-around;
+  transition: all 1s;
+}
+
+.show-detail-list-items:hover {
+  background-color: blueviolet;
+  border: 1px solid rgb(5, 5, 158);
+  color: #fff;
+  padding: 5px;
+  border-radius: 4px;
 }
