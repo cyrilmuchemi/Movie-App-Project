@@ -4,7 +4,6 @@ export default class {
   }
 
   async getMovies() {
-    console.log(this.url);
     const response = await fetch(this.url);
     return await response.json();
   }

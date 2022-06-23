@@ -85,3 +85,26 @@ h2 {
 .movie-items:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 10);
 }
+
+.likeheading {
+  display: flex;
+  gap: 5px;
+}
+
+.fa-heart {
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.fa-heart:hover {
+  color: blue;
+}
+
+.likes {
+  color: red;
+  margin-top: 12px;
+}
+
+.like-counts {
+  width: 5px;
+}
