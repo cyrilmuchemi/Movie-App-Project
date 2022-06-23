@@ -70,3 +70,24 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
+
+## Screenshots
+
+- **Home Screen**
+
+![Home Screen](./screenshot/homebasic.png)
+
+- **Home Screen**
+
+![Home Screen Hover](./screenshot/homeHover.png)
+
+- **Popup**
+
+![Popup](./screenshot/popupbasic.png)
+
+- **Popup**
+
+![Comments](./screenshot/popupscroll.png)
+
+
+
