@@ -15,7 +15,7 @@ const showLikes = async () => {
     const likeZone = document.querySelector(`#like-${like.item_id}`);
     if (like.item_id) {
       toggleLikes(likeZone);
-      likeZone.innerHTML = `<span class="like-counts">( ${like.likes} )</span>`;
+      likeZone.innerHTML = `<span class="like-counts">(${like.likes})</span>`;
     }
   });
 };
