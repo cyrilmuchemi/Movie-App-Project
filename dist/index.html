@@ -30,7 +30,7 @@
             </ul>
         </nav>
     </header>
-    <section id="movie-list"> 
+    <section id="movie-list">
 
     </section>
 
@@ -41,23 +41,39 @@
             </div>
             <div class="show-detail">
                 <div class="show-image">
-                    <img id="show-img" src="https://static.tvmaze.com/uploads/images/original_untouched/382/956212.jpg" alt="Science">
+                    <img id="show-img" src="https://static.tvmaze.com/uploads/images/original_untouched/382/956212.jpg"
+                        alt="Science">
                 </div>
                 <h2 id="show-title" class="show-title"></h2>
                 <ul id="show-details" class="show-detail-list">
-                    
+
                 </ul>
             </div>
             <div class="all-comments">
                 <h3 class="normal-title">Comments<span id="comment-count"> (3)</span></h3>
                 <ul id="comment-list"></ul>
             </div>
-            <div class="add-comments"></div>
+            <div class="comment-form">
+                <div class="article-items normal-title">
+                    <h2>Add Your Comment</h2>
+                </div>
+                <div id="comment-form" class="article-items">
+                    <form id="add-comment-form" action="#" method="post">
+                        <input id="comment-form-item-id" type="hidden" name="item_id" required>
+                        <input class="form-control" type="text" name="username" autocomplete="off" placeholder="Your Name" required>
+                        <input class="form-control" type="text" name="comment" autocomplete="off" placeholder="Your Message" required
+                            maxlength="15">
+                        <button id="comment-submit" class="btn form-control-btn" type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
         </div>
+        <div id="snackbar"></div>
     </section>
     <footer>
         <div class="footer">
-            <p>Created by Microverse under CC license</p>
+            <p>Created by <a href="mailto:ritobrotomukherjee1991@gmail.com">Ritobroto</a> &amp; <a
+                    href="mailto:ritobrotomukherjee1991@gmail.com">Cyril</a> under MIT license</p>
         </div>
     </footer>
 </body>
