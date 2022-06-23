@@ -1,9 +1,17 @@
 import API from './api.js';
-import CreatePopUpUI from './createPopUpUi.js';
+import CreatePopUpUI, { commentListUI, errorCommentsGet } from './createPopUpUi.js';
+
+const api = new API();
 
 const openPopUpToggle = () => {
   const popUp = document.querySelector('#comments');
   popUp.classList.toggle('display-none');
+};
+
+const createCommentList = (data) => {
+  api.getComments(data.id)
+    .then((comments) => commentListUI(comments, data))
+    .catch((err) => errorCommentsGet(err));
 };
 
 export default () => {
@@ -17,14 +25,13 @@ export default () => {
 
   commentButtons.forEach((item) => {
     item.addEventListener('click', (ev) => {
-      const api = new API();
       const { movieId } = ev.target.dataset;
+
       api.getDetails(movieId)
-        .then((data) => {
-          CreatePopUpUI(data);
-          openPopUpToggle();
-        })
-        .catch((err) => err);
+        .then((data) => CreatePopUpUI(data))
+        .then((data) => createCommentList(data))
+        .catch((err) => err)
+        .finally(() => openPopUpToggle());
     });
   });
 };

@@ -1,16 +1,14 @@
-import fetchMovies from "./api.js";
+import FetchMovies from './api.js';
 import InitEventListener from '../comment-pop-up/modules/initEventListener.js';
-import postLikes from "./likes.js";
-import showLikes from "./showLikes.js";
+// import postLikes from "./likes.js";
+import showLikes from './showLikes.js';
 
-const api = new fetchMovies();
+const api = new FetchMovies();
 
 api.getMovies().then(
-    (value) => {
-        
-        let movieHome = document.getElementById('movie-list');
-        movieHome.innerHTML = value.map(({id, name, image}) => {
-            return `
+  (value) => {
+    const movieHome = document.getElementById('movie-list');
+    movieHome.innerHTML = value.map(({ id, name, image }) => `
         <div class= "movie movie-items">
         <figure class= "Images">
         <img src=${image.medium} alt= "A movie">
@@ -24,10 +22,9 @@ api.getMovies().then(
         <button class="Reservation">Reservation</button>
         </div>
         </div>
-        `    
-        }).join("");
-        InitEventListener();
-        showLikes();
-        // postLikes();
-    }
-).catch(err => console.log(err));
+        `).join('');
+    InitEventListener();
+    showLikes();
+    // postLikes()
+  },
+).catch((err) => err);
