@@ -36,6 +36,13 @@ nav {
   margin: 0 15px;
 }
 
+input {
+  padding: 18px;
+  border: 1px solid rgb(100, 99, 99);
+  border-radius: 9px;
+  box-shadow: 2px 3px 3px #ccc;
+}
+
 .logo-holder {
   flex: 1 1 25%;
 }
@@ -209,4 +216,86 @@ nav {
 #comment-count {
   color: rgb(0, 0, 0);
   margin: 0 9px;
+}
+
+.comment-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 25px;
+}
+
+.article-items {
+  padding: 5px;
+  margin: 15px auto;
+  width: 75%;
+  text-align: center;
+}
+
+#add-comment-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3px;
+}
+
+.form-control {
+  height: 12px;
+  width: 95%;
+  margin: 9px auto;
+}
+
+.form-control-btn {
+  width: 50%;
+  margin: 12px 0;
+  background: rgb(91, 91, 245);
+  color: #fff;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 9px 20px;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-shadow: 1px 2px 3px rgb(1, 1, 47);
+  font-weight: 700;
+}
+
+.btn:active {
+  box-shadow: none;
+}
+
+#snackbar {
+  visibility: hidden;
+  min-width: 250px;
+  margin-left: -125px;
+  background-color: #82f387;
+  color: #000;
+  text-align: center;
+  border-radius: 2px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  top: 30px;
+  font-size: 17px;
+}
+
+#snackbar.show {
+  visibility: visible;
+  animation: fadein 0.5s, fadeout 0.5s 3s;
+}
+
+@keyframes fadein {
+  from {
+    top: 0;
+    opacity: 0;
+  }
+
+  to {
+    top: 30px;
+    opacity: 1;
+  }
 }
