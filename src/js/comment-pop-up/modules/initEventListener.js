@@ -1,5 +1,7 @@
 import API from './api.js';
-import CreatePopUpUI, { commentListUI, errorCommentsGet } from './createPopUpUi.js';
+import CreatePopUpUI, {
+  commentListUI, errorCommentsGet, showSnackbar, appendNewComment,
+} from './createPopUpUi.js';
 
 const api = new API();
 
@@ -19,6 +21,8 @@ export default () => {
 
   const closePopUpButton = document.querySelector('.close-pop-up');
 
+  const commentAddForm = document.getElementById('add-comment-form');
+
   closePopUpButton.addEventListener('click', () => {
     openPopUpToggle();
   });
@@ -33,5 +37,19 @@ export default () => {
         .catch((err) => err)
         .finally(() => openPopUpToggle());
     });
+  });
+
+  commentAddForm.addEventListener('submit', (ev) => {
+    ev.preventDefault();
+    const formInputs = Object.fromEntries(new FormData(commentAddForm).entries());
+    api.addComment(formInputs)
+      .then((data) => {
+        appendNewComment(formInputs);
+        showSnackbar(`${data} new Comment`);
+      })
+      .catch((err) => showSnackbar(err))
+      .finally(() => {
+        commentAddForm.reset();
+      });
   });
 };
