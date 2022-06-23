@@ -1,6 +1,6 @@
 import FetchMovies from './api.js';
 import InitEventListener from '../comment-pop-up/modules/initEventListener.js';
-// import postLikes from "./likes.js";
+import postLikes from './likes.js';
 import showLikes from './showLikes.js';
 
 const api = new FetchMovies();
@@ -25,6 +25,6 @@ api.getMovies().then(
         `).join('');
     InitEventListener();
     showLikes();
-    // postLikes()
+    postLikes();
   },
 ).catch((err) => err);
