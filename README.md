@@ -1,8 +1,6 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
 # Movie App
 
-> It's a webapp for tv shows with interactive buttons. This uses external API calls and unit testing. Whole project is ES6 modular structure based.
+> It's a webapp for tv shows with interactive buttons. It opens pop up to view details of each movie and get user comments. It has likes button which records likes to correct movie in the backend API. This project also have unit testing. Whole project is in ES6 modular structure and `JavaScript OOP` paradigm. The project follow `DRY`, `KISS`, `YAGNI` principles by heart.
 
 
 ## Built With
@@ -10,21 +8,34 @@
 - JavaScript
 - HTML5
 - CSS3
+- Jest
 - API
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://cyrilmuchemi.github.io/Movie-App-Project)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+- NodeJs, npm needs to be installed in system
+- For local project set up, run ``` git clone https://github.com/cyrilmuchemi/Movie-App-Project.git ```
 
+## Install Linters
 
-To get a local copy up and running follow these simple example steps.
+- Run ``` npm install ```
 
+## Buid Project
+
+- Run ``` npm run build ```
+
+## Serve Project
+
+- Run ``` npm run serve ```
+
+## Extra configuration for testing
+
+- Run ``` npm test```
 
 
 ## Authors

@@ -2,12 +2,14 @@ import FetchMovies from './api.js';
 import InitEventListener from '../comment-pop-up/modules/initEventListener.js';
 import postLikes from './likes.js';
 import showLikes from './showLikes.js';
+import ItemCounter from './itemCounter.js';
 
 const api = new FetchMovies();
 
 api.getMovies().then(
   (value) => {
     const movieHome = document.getElementById('movie-list');
+    document.getElementById('movie-count').innerHTML = ` (${ItemCounter(value)})`;
     movieHome.innerHTML = value.map(({ id, name, image }) => `
         <div class= "movie movie-items">
         <figure class= "Images">
