@@ -11,10 +11,13 @@
 - Jest
 - API
 
-## Live Demo (if available)
+## Live Demo
 
 [Live Demo Link](https://cyrilmuchemi.github.io/Movie-App-Project)
 
+## Project Description Video
+
+[Video Link](https://drive.google.com/file/d/1lfr5iWsBbrjY_UmQufnlOCVDJxL6QfEP/view?usp=sharing)
 
 ## Getting Started
 
@@ -53,24 +56,6 @@
 - Twitter: [@cyrilmuchemi](https://twitter.com/cyrilmuchemi)
 - LinkedIn: [Cyril Muchemi](https://linkedin.com/in/cyrilmuchemi)
 
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
-
-## Show your support
-
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Microverse
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
-
 ## Screenshots
 
 - **Home Screen**
@@ -90,4 +75,20 @@ This project is [MIT](./MIT.md) licensed.
 ![Comments](./screenshot/popupscroll.png)
 
 
+## 🤝 Contributing
 
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Microverse
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
