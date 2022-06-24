@@ -92,3 +92,6 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
+
+## Code Reviewer
+- Teddy-Livingstone Ememandu[@gitHub](https://github.com/TedLivist)
