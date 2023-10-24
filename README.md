@@ -15,10 +15,6 @@
 
 [Live Demo Link](https://cyrilmuchemi.github.io/Movie-App-Project)
 
-## Project Description Video
-
-[Video Link](https://drive.google.com/file/d/1lfr5iWsBbrjY_UmQufnlOCVDJxL6QfEP/view?usp=sharing)
-
 ## Getting Started
 
 - NodeJs, npm needs to be installed in system
